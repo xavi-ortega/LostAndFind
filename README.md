@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Installation wizard for October
 
 The wizard installation is a recommended way to install October. It is simpler than the command-line installation and doesn't require any special skills.
@@ -14,7 +13,7 @@ The wizard installation is a recommended way to install October. It is simpler t
 
 October CMS has a few system requirements:
 
-* PHP 5.4 or higher
+* PHP 5.5.9 or higher
 * PDO PHP Extension
 * cURL PHP Extension
 * MCrypt PHP Extension
@@ -23,7 +22,3 @@ October CMS has a few system requirements:
 
 As of PHP 5.5, some OS distributions may require you to manually install the PHP JSON extension.
 When using Ubuntu, this can be done via ``apt-get install php5-json``.
-=======
-# lostAndFind
-Ultima practica php
->>>>>>> 72971a45335a4b9de52efa814a7a19b9e60eb5a4

@@ -29,7 +29,7 @@ return [
     |
     */
 
-    'url' => 'http://localhost/install-master/install-master/',
+    'url' => 'http://localhost/install-master/',
 
     /*
     |--------------------------------------------------------------------------
@@ -81,7 +81,7 @@ return [
     |
     */
 
-    'key' => 'iokRMbYHSIzBzf2l',
+    'key' => '0Z317v8yCYGMYUWU',
 
     'cipher' => MCRYPT_RIJNDAEL_128,
 

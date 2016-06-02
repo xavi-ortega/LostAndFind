@@ -54,11 +54,11 @@ return [
 
         'mysql' => [
             'driver'    => 'mysql',
-            'host'      => 'localhost',
-            'port'      => 3306,
-            'database'  => 'pekiAppDB',
-            'username'  => 'root',
-            'password'  => '',
+            'host'      => 'eu-cdbr-azure-north-e.cloudapp.net',
+            'port'      => '3306',
+            'database'  => 'lostandfindBD',
+            'username'  => 'bd824311ee68cc',
+            'password'  => '64d8c285',
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix'    => '',
