@@ -1,4 +1,4 @@
-1464887405s:2574:"a:6:{s:5:"mtime";i:1464886029;s:7:"content";s:1211:"==
+1464970208s:2538:"a:6:{s:5:"mtime";i:1464969604;s:7:"content";s:1193:"==
 <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
     <div class="container">
         <div class="navbar-header page-scroll">
@@ -6,7 +6,7 @@
                 <i class="fa fa-bars"></i>
             </button>
             <a class="navbar-brand" href="{{ 'home'|page }}">
-                <h1 class="upper">{{ this.theme.site_name }}</h1>
+                <h1 class="upper">Lost&Find</h1>
             </a>
         </div>
         {% if this.page.baseFileName != '404' and  this.page.baseFileName != 'error' and this.page.baseFileName != 'maintenance' %}
@@ -14,7 +14,7 @@
         <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
             <ul class="nav navbar-nav">
                 <li class="active"><a href="#intro">Home</a></li>
-                <li><a href="#about">Nosaltres</a></li>
+                <li><a href="#about">Qui som?</a></li>
                 <li><a href="#service">Serveis</a></li>
                 <li><a href="#contact">Contacte</a></li>
             </ul>
@@ -23,14 +23,14 @@
         {% endif %}
     </div>
     <!-- /.container -->
-</nav>";s:7:"viewBag";a:0:{}s:8:"settings";a:1:{s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:1207:"<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+</nav>";s:7:"viewBag";a:0:{}s:8:"settings";a:1:{s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:1189:"<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
     <div class="container">
         <div class="navbar-header page-scroll">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                 <i class="fa fa-bars"></i>
             </button>
             <a class="navbar-brand" href="{{ 'home'|page }}">
-                <h1 class="upper">{{ this.theme.site_name }}</h1>
+                <h1 class="upper">Lost&Find</h1>
             </a>
         </div>
         {% if this.page.baseFileName != '404' and  this.page.baseFileName != 'error' and this.page.baseFileName != 'maintenance' %}
@@ -38,7 +38,7 @@
         <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
             <ul class="nav navbar-nav">
                 <li class="active"><a href="#intro">Home</a></li>
-                <li><a href="#about">Nosaltres</a></li>
+                <li><a href="#about">Qui som?</a></li>
                 <li><a href="#service">Serveis</a></li>
                 <li><a href="#contact">Contacte</a></li>
             </ul>

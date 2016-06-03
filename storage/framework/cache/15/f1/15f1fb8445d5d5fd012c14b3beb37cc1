@@ -1,4 +1,4 @@
-1464887405s:1297:"a:6:{s:5:"mtime";i:1464878687;s:7:"content";s:572:"<footer>
+1464969738s:1328:"a:6:{s:5:"mtime";i:1464966585;s:7:"content";s:588:"<footer>
  <div class="container">
      <div class="row">
          <div class="col-md-12 col-lg-12">
@@ -14,7 +14,7 @@
      </div>
  </div>
 </footer>
-";s:7:"viewBag";a:0:{}s:8:"settings";a:1:{s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:571:"<footer>
+";s:7:"viewBag";a:0:{}s:8:"settings";a:1:{s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:586:"<footer>
  <div class="container">
      <div class="row">
          <div class="col-md-12 col-lg-12">

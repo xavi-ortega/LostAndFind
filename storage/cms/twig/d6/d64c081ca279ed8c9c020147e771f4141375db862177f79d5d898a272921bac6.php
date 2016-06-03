@@ -26,10 +26,7 @@ class __TwigTemplate_3a6a22741d45e12b98557e18423fd63bfc73f1628288bd96f89204db0ea
         // line 7
         echo $this->env->getExtension('CMS')->pageFilter("home");
         echo "\">
-                <h1 class=\"upper\">";
-        // line 8
-        echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute((isset($context["this"]) ? $context["this"] : null), "theme", array()), "site_name", array()), "html", null, true);
-        echo "</h1>
+                <h1 class=\"upper\">Lost&Find</h1>
             </a>
         </div>
         ";
@@ -40,7 +37,7 @@ class __TwigTemplate_3a6a22741d45e12b98557e18423fd63bfc73f1628288bd96f89204db0ea
         <div class=\"collapse navbar-collapse navbar-right navbar-main-collapse\">
             <ul class=\"nav navbar-nav\">
                 <li class=\"active\"><a href=\"#intro\">Home</a></li>
-                <li><a href=\"#about\">Nosaltres</a></li>
+                <li><a href=\"#about\">Qui som?</a></li>
                 <li><a href=\"#service\">Serveis</a></li>
                 <li><a href=\"#contact\">Contacte</a></li>
             </ul>
@@ -66,7 +63,7 @@ class __TwigTemplate_3a6a22741d45e12b98557e18423fd63bfc73f1628288bd96f89204db0ea
 
     public function getDebugInfo()
     {
-        return array (  52 => 23,  39 => 12,  37 => 11,  31 => 8,  27 => 7,  19 => 1,);
+        return array (  49 => 23,  36 => 12,  34 => 11,  27 => 7,  19 => 1,);
     }
 }
 /* <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">*/
@@ -76,7 +73,7 @@ class __TwigTemplate_3a6a22741d45e12b98557e18423fd63bfc73f1628288bd96f89204db0ea
 /*                 <i class="fa fa-bars"></i>*/
 /*             </button>*/
 /*             <a class="navbar-brand" href="{{ 'home'|page }}">*/
-/*                 <h1 class="upper">{{ this.theme.site_name }}</h1>*/
+/*                 <h1 class="upper">Lost&Find</h1>*/
 /*             </a>*/
 /*         </div>*/
 /*         {% if this.page.baseFileName != '404' and  this.page.baseFileName != 'error' and this.page.baseFileName != 'maintenance' %}*/
@@ -84,7 +81,7 @@ class __TwigTemplate_3a6a22741d45e12b98557e18423fd63bfc73f1628288bd96f89204db0ea
 /*         <div class="collapse navbar-collapse navbar-right navbar-main-collapse">*/
 /*             <ul class="nav navbar-nav">*/
 /*                 <li class="active"><a href="#intro">Home</a></li>*/
-/*                 <li><a href="#about">Nosaltres</a></li>*/
+/*                 <li><a href="#about">Qui som?</a></li>*/
 /*                 <li><a href="#service">Serveis</a></li>*/
 /*                 <li><a href="#contact">Contacte</a></li>*/
 /*             </ul>*/

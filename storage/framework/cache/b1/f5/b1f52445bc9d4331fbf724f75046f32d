@@ -1,4 +1,4 @@
-1464887637s:20815:"a:6:{s:5:"mtime";i:1464886998;s:7:"content";s:10315:"title = "Lost & Find"
+1464970086s:17891:"a:6:{s:5:"mtime";i:1464969479;s:7:"content";s:8854:"title = "Lost & Find"
 url = "/"
 layout = "default"
 is_hidden = 0
@@ -25,7 +25,7 @@ is_hidden = 0
             <div class="col-lg-8 col-lg-offset-2">
                 <div class="wow bounceInDown" data-wow-delay="0.4s">
                 <div class="section-heading">
-                <h2>Qui som</h2>
+                <h2>Qui som?</h2>
                 <i class="fa fa-2x fa-angle-down"></i>
 
                 </div>
@@ -92,7 +92,7 @@ is_hidden = 0
             <div class="col-lg-8 col-lg-offset-2">
                 <div class="wow bounceInDown" data-wow-delay="0.4s">
                 <div class="section-heading">
-                <h2>Our Services</h2>
+                <h2>Servei</h2>
                 <i class="fa fa-2x fa-angle-down"></i>
 
                 </div>
@@ -108,20 +108,20 @@ is_hidden = 0
         </div>
     </div>
     <div class="row">
-        <div class="col-sm-3 col-md-3">
+        <div class="col-sm-4 col-md-4">
             <div class="wow fadeInLeft" data-wow-delay="0.2s">
             <div class="service-box">
                 <div class="service-icon">
                     <img src="{{ 'assets/images/icons/service-icon-1.png'|theme }}" alt="" />
                 </div>
                 <div class="service-desc">
-                    <h5>Print</h5>
-                    <p>Vestibulum tincidunt enim in pharetra malesuada. Duis semper magna metus electram accommodare.</p>
+                    <h5>App Development</h5>
+                    <p>Desenvolupació d'apicacions tan amb natiu com híbrides.</p>
                 </div>
             </div>
             </div>
         </div>
-        <div class="col-sm-3 col-md-3">
+        <div class="col-sm-4 col-md-4">
             <div class="wow fadeInUp" data-wow-delay="0.2s">
             <div class="service-box">
                 <div class="service-icon">
@@ -129,25 +129,12 @@ is_hidden = 0
                 </div>
                 <div class="service-desc">
                     <h5>Web Design</h5>
-                    <p>Vestibulum tincidunt enim in pharetra malesuada. Duis semper magna metus electram accommodare.</p>
+                    <p>Dissenyem la web que el nostre client necessiti.</p>
                 </div>
             </div>
             </div>
         </div>
-        <div class="col-sm-3 col-md-3">
-            <div class="wow fadeInUp" data-wow-delay="0.2s">
-            <div class="service-box">
-                <div class="service-icon">
-                    <img src="{{ 'assets/images/icons/service-icon-3.png'|theme }}" alt="" />
-                </div>
-                <div class="service-desc">
-                    <h5>Photography</h5>
-                    <p>Vestibulum tincidunt enim in pharetra malesuada. Duis semper magna metus electram accommodare.</p>
-                </div>
-            </div>
-            </div>
-        </div>
-        <div class="col-sm-3 col-md-3">
+        <div class="col-sm-4 col-md-4">
             <div class="wow fadeInRight" data-wow-delay="0.2s">
             <div class="service-box">
                 <div class="service-icon">
@@ -155,7 +142,7 @@ is_hidden = 0
                 </div>
                 <div class="service-desc">
                     <h5>Cloud System</h5>
-                    <p>Vestibulum tincidunt enim in pharetra malesuada. Duis semper magna metus electram accommodare.</p>
+                    <p>Oferim un servei al cloud per allotjar el teu servei del cloud</p>
                 </div>
             </div>
             </div>
@@ -176,7 +163,7 @@ is_hidden = 0
             <div class="col-lg-8 col-lg-offset-2">
                 <div class="wow bounceInDown" data-wow-delay="0.4s">
                 <div class="section-heading">
-                <h2>Get in touch</h2>
+                <h2>Contacte</h2>
                 <i class="fa fa-2x fa-angle-down"></i>
 
                 </div>
@@ -200,39 +187,39 @@ is_hidden = 0
                 <div class="col-md-6">
                     <div class="form-group">
                         <label for="name">
-                            Name</label>
-                        <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
+                            Nom</label>
+                        <input type="text" class="form-control" id="name" placeholder="Escriure nom" required="required" />
                     </div>
                     <div class="form-group">
                         <label for="email">
-                            Email Address</label>
+                            Direcció Email</label>
                         <div class="input-group">
                             <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
                             </span>
-                            <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" /></div>
+                            <input type="email" class="form-control" id="email" placeholder="Escriure email" required="required" /></div>
                     </div>
                     <div class="form-group">
                         <label for="subject">
-                            Subject</label>
+                            Asumpte</label>
                         <select id="subject" name="subject" class="form-control" required="required">
-                            <option value="na" selected="">Choose One:</option>
-                            <option value="service">General Customer Service</option>
-                            <option value="suggestions">Suggestions</option>
-                            <option value="product">Product Support</option>
+                            <option value="na" selected="">Escollir un:</option>
+                            <option value="service">Desenvolupament Web</option>
+                            <option value="suggestions">Desenvolupament App</option>
+                            <option value="product">PekiApp</option>
                         </select>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
                         <label for="name">
-                            Message</label>
+                            Missatge</label>
                         <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
-                            placeholder="Message"></textarea>
+                            placeholder="Missatge"></textarea>
                     </div>
                 </div>
                 <div class="col-md-12">
                     <button type="submit" class="btn btn-skin pull-right" id="btnContactUs">
-                        Send Message</button>
+                        Enviar</button>
                 </div>
             </div>
             </form>
@@ -241,27 +228,17 @@ is_hidden = 0
 
     <div class="col-lg-4">
         <div class="widget-contact">
-            <h5>Main Office</h5>
+            <h5>SEU PRINCIPAL</h5>
 
             <address>
-              <strong>Squas Design, Inc.</strong><br>
-              Tower 795 Folsom Ave, Beautiful Suite 600<br>
-              San Francisco, CA 94107<br>
-              <abbr title="Phone">P:</abbr> (123) 456-7890
+              <strong>LOST&FIND, Inc.</strong><br>
+              Passeig de Cantarruella, 24<br>
+              Cabrils, 08348<br>
             </address>
 
             <address>
               <strong>Email</strong><br>
-              <a href="mailto:#">email.name@example.com</a>
-            </address>
-            <address>
-              <strong>We're on social networks</strong><br>
-                    <ul class="company-social">
-                        <li class="social-facebook"><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                        <li class="social-twitter"><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                        <li class="social-dribble"><a href="#" target="_blank"><i class="fa fa-dribbble"></i></a></li>
-                        <li class="social-google"><a href="#" target="_blank"><i class="fa fa-google-plus"></i></a></li>
-                    </ul>
+              <a href="mailto:#">lostandfind@gmail.com</a>
             </address>
 
         </div>
@@ -270,7 +247,7 @@ is_hidden = 0
 
     </div>
 </section>
-<!-- /Section: contact -->";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:11:"Lost & Find";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:10242:"<!-- Section: intro -->
+<!-- /Section: contact -->";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:11:"Lost & Find";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:8781:"<!-- Section: intro -->
 <section id="intro" class="intro">
 
     <div class="slogan">
@@ -292,7 +269,7 @@ is_hidden = 0
             <div class="col-lg-8 col-lg-offset-2">
                 <div class="wow bounceInDown" data-wow-delay="0.4s">
                 <div class="section-heading">
-                <h2>Qui som</h2>
+                <h2>Qui som?</h2>
                 <i class="fa fa-2x fa-angle-down"></i>
 
                 </div>
@@ -359,7 +336,7 @@ is_hidden = 0
             <div class="col-lg-8 col-lg-offset-2">
                 <div class="wow bounceInDown" data-wow-delay="0.4s">
                 <div class="section-heading">
-                <h2>Our Services</h2>
+                <h2>Servei</h2>
                 <i class="fa fa-2x fa-angle-down"></i>
 
                 </div>
@@ -375,20 +352,20 @@ is_hidden = 0
         </div>
     </div>
     <div class="row">
-        <div class="col-sm-3 col-md-3">
+        <div class="col-sm-4 col-md-4">
             <div class="wow fadeInLeft" data-wow-delay="0.2s">
             <div class="service-box">
                 <div class="service-icon">
                     <img src="{{ 'assets/images/icons/service-icon-1.png'|theme }}" alt="" />
                 </div>
                 <div class="service-desc">
-                    <h5>Print</h5>
-                    <p>Vestibulum tincidunt enim in pharetra malesuada. Duis semper magna metus electram accommodare.</p>
+                    <h5>App Development</h5>
+                    <p>Desenvolupació d'apicacions tan amb natiu com híbrides.</p>
                 </div>
             </div>
             </div>
         </div>
-        <div class="col-sm-3 col-md-3">
+        <div class="col-sm-4 col-md-4">
             <div class="wow fadeInUp" data-wow-delay="0.2s">
             <div class="service-box">
                 <div class="service-icon">
@@ -396,25 +373,12 @@ is_hidden = 0
                 </div>
                 <div class="service-desc">
                     <h5>Web Design</h5>
-                    <p>Vestibulum tincidunt enim in pharetra malesuada. Duis semper magna metus electram accommodare.</p>
+                    <p>Dissenyem la web que el nostre client necessiti.</p>
                 </div>
             </div>
             </div>
         </div>
-        <div class="col-sm-3 col-md-3">
-            <div class="wow fadeInUp" data-wow-delay="0.2s">
-            <div class="service-box">
-                <div class="service-icon">
-                    <img src="{{ 'assets/images/icons/service-icon-3.png'|theme }}" alt="" />
-                </div>
-                <div class="service-desc">
-                    <h5>Photography</h5>
-                    <p>Vestibulum tincidunt enim in pharetra malesuada. Duis semper magna metus electram accommodare.</p>
-                </div>
-            </div>
-            </div>
-        </div>
-        <div class="col-sm-3 col-md-3">
+        <div class="col-sm-4 col-md-4">
             <div class="wow fadeInRight" data-wow-delay="0.2s">
             <div class="service-box">
                 <div class="service-icon">
@@ -422,7 +386,7 @@ is_hidden = 0
                 </div>
                 <div class="service-desc">
                     <h5>Cloud System</h5>
-                    <p>Vestibulum tincidunt enim in pharetra malesuada. Duis semper magna metus electram accommodare.</p>
+                    <p>Oferim un servei al cloud per allotjar el teu servei del cloud</p>
                 </div>
             </div>
             </div>
@@ -443,7 +407,7 @@ is_hidden = 0
             <div class="col-lg-8 col-lg-offset-2">
                 <div class="wow bounceInDown" data-wow-delay="0.4s">
                 <div class="section-heading">
-                <h2>Get in touch</h2>
+                <h2>Contacte</h2>
                 <i class="fa fa-2x fa-angle-down"></i>
 
                 </div>
@@ -467,39 +431,39 @@ is_hidden = 0
                 <div class="col-md-6">
                     <div class="form-group">
                         <label for="name">
-                            Name</label>
-                        <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
+                            Nom</label>
+                        <input type="text" class="form-control" id="name" placeholder="Escriure nom" required="required" />
                     </div>
                     <div class="form-group">
                         <label for="email">
-                            Email Address</label>
+                            Direcció Email</label>
                         <div class="input-group">
                             <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
                             </span>
-                            <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" /></div>
+                            <input type="email" class="form-control" id="email" placeholder="Escriure email" required="required" /></div>
                     </div>
                     <div class="form-group">
                         <label for="subject">
-                            Subject</label>
+                            Asumpte</label>
                         <select id="subject" name="subject" class="form-control" required="required">
-                            <option value="na" selected="">Choose One:</option>
-                            <option value="service">General Customer Service</option>
-                            <option value="suggestions">Suggestions</option>
-                            <option value="product">Product Support</option>
+                            <option value="na" selected="">Escollir un:</option>
+                            <option value="service">Desenvolupament Web</option>
+                            <option value="suggestions">Desenvolupament App</option>
+                            <option value="product">PekiApp</option>
                         </select>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
                         <label for="name">
-                            Message</label>
+                            Missatge</label>
                         <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
-                            placeholder="Message"></textarea>
+                            placeholder="Missatge"></textarea>
                     </div>
                 </div>
                 <div class="col-md-12">
                     <button type="submit" class="btn btn-skin pull-right" id="btnContactUs">
-                        Send Message</button>
+                        Enviar</button>
                 </div>
             </div>
             </form>
@@ -508,27 +472,17 @@ is_hidden = 0
 
     <div class="col-lg-4">
         <div class="widget-contact">
-            <h5>Main Office</h5>
+            <h5>SEU PRINCIPAL</h5>
 
             <address>
-              <strong>Squas Design, Inc.</strong><br>
-              Tower 795 Folsom Ave, Beautiful Suite 600<br>
-              San Francisco, CA 94107<br>
-              <abbr title="Phone">P:</abbr> (123) 456-7890
+              <strong>LOST&FIND, Inc.</strong><br>
+              Passeig de Cantarruella, 24<br>
+              Cabrils, 08348<br>
             </address>
 
             <address>
               <strong>Email</strong><br>
-              <a href="mailto:#">email.name@example.com</a>
-            </address>
-            <address>
-              <strong>We're on social networks</strong><br>
-                    <ul class="company-social">
-                        <li class="social-facebook"><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                        <li class="social-twitter"><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                        <li class="social-dribble"><a href="#" target="_blank"><i class="fa fa-dribbble"></i></a></li>
-                        <li class="social-google"><a href="#" target="_blank"><i class="fa fa-google-plus"></i></a></li>
-                    </ul>
+              <a href="mailto:#">lostandfind@gmail.com</a>
             </address>
 
         </div>

@@ -1,4 +1,4 @@
-1464887404s:867:"a:6:{s:5:"mtime";i:1464878687;s:7:"content";s:342:"title = "Page not found"
+1464969738s:889:"a:6:{s:5:"mtime";i:1464966585;s:7:"content";s:356:"title = "Page not found"
 url = "/404"
 layout = "default"
 hidden = "0"
@@ -12,7 +12,7 @@ hidden = "0"
     </div>
 </section>
 <!-- /Section: intro -->
-";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:14:"Page not found";s:3:"url";s:4:"/404";s:6:"layout";s:7:"default";s:6:"hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:268:"<!-- Section: intro -->
+";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:14:"Page not found";s:3:"url";s:4:"/404";s:6:"layout";s:7:"default";s:6:"hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:276:"<!-- Section: intro -->
 <section id="intro" class="intro">
 
     <div class="slogan">

@@ -358,6 +358,7 @@ hr {
 .boxed-grey {
   background: #f9f9f9;
   padding: 20px;
+  min-height: 350px;
 }
 
 .team h5 {

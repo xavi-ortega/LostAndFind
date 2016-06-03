@@ -21,10 +21,8 @@ class __TwigTemplate_d1f38c3d353b3137fe1673a66b52b928829f7ea77ede14ea8b22586feca
 
 <head>
     <meta charset=\"utf-8\">
-    <title>";
+    <title>Lost&Find - ";
         // line 6
-        echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute((isset($context["this"]) ? $context["this"] : null), "theme", array()), "site_name", array()), "html", null, true);
-        echo " - ";
         echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute((isset($context["this"]) ? $context["this"] : null), "page", array()), "title", array()), "html", null, true);
         echo "</title>
 
@@ -190,7 +188,7 @@ class __TwigTemplate_d1f38c3d353b3137fe1673a66b52b928829f7ea77ede14ea8b22586feca
 
     public function getDebugInfo()
     {
-        return array (  175 => 68,  171 => 66,  168 => 65,  164 => 63,  157 => 62,  151 => 59,  145 => 56,  141 => 55,  137 => 54,  133 => 53,  129 => 52,  125 => 50,  121 => 49,  118 => 48,  116 => 47,  113 => 46,  109 => 45,  97 => 36,  93 => 34,  90 => 33,  79 => 25,  75 => 24,  69 => 21,  65 => 20,  59 => 17,  46 => 11,  42 => 10,  34 => 9,  26 => 6,  19 => 1,);
+        return array (  173 => 68,  169 => 66,  166 => 65,  162 => 63,  155 => 62,  149 => 59,  143 => 56,  139 => 55,  135 => 54,  131 => 53,  127 => 52,  123 => 50,  119 => 49,  116 => 48,  114 => 47,  111 => 46,  107 => 45,  95 => 36,  91 => 34,  88 => 33,  77 => 25,  73 => 24,  67 => 21,  63 => 20,  57 => 17,  44 => 11,  40 => 10,  32 => 9,  26 => 6,  19 => 1,);
     }
 }
 /* <!DOCTYPE html>*/
@@ -198,7 +196,7 @@ class __TwigTemplate_d1f38c3d353b3137fe1673a66b52b928829f7ea77ede14ea8b22586feca
 /* */
 /* <head>*/
 /*     <meta charset="utf-8">*/
-/*     <title>{{ this.theme.site_name }} - {{ this.page.title }}</title>*/
+/*     <title>Lost&Find - {{ this.page.title }}</title>*/
 /* */
 /*     <!-- Metadata -->*/
 /*     <meta name="title" content="{% if this.page.meta_title %}{{ this.page.meta_title }}{% else %}{{ this.theme.meta_title }}{% endif %}">*/
